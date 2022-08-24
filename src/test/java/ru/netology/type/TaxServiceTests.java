@@ -36,7 +36,7 @@ public class TaxServiceTests {
     }
 
     @Test
-    public void test() {
+    public void testPayOut() {
         // given:
         String expected = "Уплачен налог в размере 100.00";
         BigDecimal amount = new BigDecimal("100.00");
